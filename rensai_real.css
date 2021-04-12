@@ -1,0 +1,173 @@
+@charset "UTF-8";
+body {
+    background-color: #eaf4fc
+}
+.titlephoto {
+    width: 100%;
+    padding-top: 50px;
+}
+ 
+
+
+.content {
+  color: #17183B;
+  font-family: serif;
+}
+
+.title img {
+  width: 100%;
+}
+
+
+
+.title {
+  margin-top: 50px;
+  text-align: center;
+  width: 100%;
+}
+.text {
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 40px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: #17183B;
+  margin-bottom: 30px;
+}
+.article-title {
+  text-align: center;
+  font-family: serif;
+}
+.text h1 {
+  font-size: 24px;
+  text-decoration: underline;
+}
+
+
+h2 {
+    color: #17183B;
+    font-size:22px;
+    font-family: serif;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+
+.table {
+    color: #17183B;
+    font-size:18px;
+    font-family: serif;
+}
+
+.saisho {
+    font-size:18px;
+    font-family: serif;
+    margin-top: 30px;
+}
+
+.title1 {
+    color: #17183B;
+    font-size:20px;
+    font-family: serif;
+    margin-top: 40px;
+}
+
+.mazuha {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+
+.graph {
+    width: 100%;
+    margin: auto;
+}
+
+.tasuku {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+ul {
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.ippou {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.honnninn {
+    margin-top: 30px;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.photo1 {
+    width: 100%;
+    margin: auto;
+}
+
+.tugiha {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.unstani {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.zentai {
+    margin-top: 50px;
+    font-size: 18px;
+}
+
+.matsuri {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.yakushoku {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.chokuzen {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+ 
+.tugi {
+    margin-top: 18px;
+    font-size: 18px;
+}
+
+
+.yahari {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.soshite {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.photo2 {
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.saigo {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.ikaga {
+    margin-top: 30px;
+    font-size: 18px;
+}
