@@ -1,0 +1,447 @@
+<!doctype HTML>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>運スタのリアル</title>
+        <meta name="description" content="早稲田祭運営スタッフの活動をご紹介します！">
+        <link rel="icon" type="png" href="logo.png">
+        <link rel="stylesheet" href="rensai_real.css">
+    </head>
+
+    <body>
+      <header>
+  
+        <div class="logo1">
+            <a href=" https://wasedasai2021shinkan.github.io/toppage/" id="headerlogo"><img src="headericon.png" class="hedlogo">
+            </a>
+        </div>
+  
+        <div id="hamburger">
+            <div class="icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+  
+        <nav class="sm navi">
+          <ul class="lists">
+            <li class="lili"><a  class="listwords" href="https://wasedasai2021shinkan.github.io/daihyouaisatsu/">代表挨拶</a></li>
+            <li class="lili"><a  class="listwords" href="https://wasedasai2021shinkan.github.io/about/">早稲田祭について</a></li>
+            <li class="lili"><a  class="listwords" href="https://wasedasai2021shinkan.github.io/event/">新歓イベント</a></li>
+            <li class="lili"><a  class="listwords" href="https://wasedasai2021shinkan.github.io/katsudounitsuite/">活動について</a></li>
+            <li class="lili"><a  class="listwords" href="https://wasedasai2021shinkan.github.io/rensai/">連載記事</a></li>
+            <li class="lili"><a  class="listwords" href="https://wasedasai2021shinkan.github.io/schedule/
+          ">年間スケジュール</a></li>
+            <li class="lili"><a  class="listwords" href="https://wasedasai2021shinkan.github.io/photogallery/">フォトギャラリー</a></li>
+            <li class="lili"><a  class="listwords" href="https://wasedasai2021shinkan.github.io/nyukai/">入会方法</a></li>
+            <li class="lili"><a  class="listwords" href="https://wasedasai2021shinkan.github.io/otoiawase/">お問い合わせ</a></li>
+         </ul>
+        </nav>
+  
+
+  
+        <nav class="pc navi">  
+          <ul class="lists">
+            <li class="lili"><a  class="listwords" href="https://wasedasai2021shinkan.github.io/daihyouaisatsu/">代表挨拶</a></li>
+            <li class="lili"><a  class="listwords" href="https://wasedasai2021shinkan.github.io/about/">早稲田祭について</a></li>
+            <li class="lili"><a  class="listwords" href="https://wasedasai2021shinkan.github.io/katsudounitsuite/">活動について</a></li>
+            <li class="lili"><a  class="listwords" href="https://wasedasai2021shinkan.github.io/photogallery/">フォトギャラリー</a></li>
+            <li class="lili"><a  class="listwords" href="https://wasedasai2021shinkan.github.io/otoiawase/">お問い合わせ</a></li>
+          </ul>
+        </nav>
+ 
+  
+      </header>
+  
+  
+
+      <script src="jquery-3.6.0.min.js"></script>
+        <script>
+          $('#hamburger').on('click', function(){
+          $('.icon').toggleClass('close');
+          $('.sm').slideToggle();
+          });
+    
+        </script>
+
+<style>
+/*header*/
+
+header {
+height: 60px;
+width: 100%;
+padding: 0px 0px;
+background-color:#78c1cd;
+position: fixed;
+top: 0;
+z-index: 10;
+display: flex;
+font-family:serif;
+}
+
+
+.lili:hover{
+filter: alpha(opacity=85);
+-moz-opacity: 0.85;
+opacity: 0.85;
+
+}
+
+.logo1 {
+font-size: 25px;}
+
+.hedlogo{
+height:55px;
+width:55px;
+margin-left:12px;
+}
+
+
+.hedlogo:hover  {
+filter: alpha(opacity=85);
+-moz-opacity: 0.85;
+opacity: 0.85;
+
+}
+.navi{
+margin: 0 0 0 auto;
+}
+
+.lists {
+display: flex;
+list-style: none;
+padding: 0;
+margin: 0;
+margin-right:15px
+}
+
+.listwords {
+color: #eaf4fc;
+text-decoration: none;
+display: block;
+line-height: 60px;
+padding: 0 20px;
+}
+
+.sm {
+display: none;
+}
+.toppagelogo{
+height:500px;
+width:500px:
+padding:400px;
+margin:0 auto;
+}
+/*---------------------------------------------------------------*/
+@media (max-width: 900px) {
+
+.pc {
+  display: none;
+}
+
+#hamburger {
+  background-color: transparent;
+  position:relative;
+  float:right
+  cursor:pointer;
+  margin: 0 0 0 auto;
+  height: 60px;
+  width: 60px;
+}
+
+.icon span {
+  position: absolute;
+  left: 15px;
+  width: 30px;
+  height: 4px;
+  background-color:#eaf4fc;
+  border-radius: 8px;
+  transition: ease 0.75s;
+}
+
+.icon span:nth-of-type(1) {
+  top: 16px;
+}
+.icon span:nth-of-type(2) {
+  top: 28px;
+}
+.icon span:nth-of-type(3) {
+  bottom: 16px;
+}
+
+.close span:nth-of-type(1) {
+  transform: rotate(45deg);
+  top: 28px;
+}
+
+.close span:nth-of-type(2) {
+  opacity: 0;
+}
+
+.close span:nth-of-type(3) {
+    transform: rotate(-45deg);
+    top: 28px;
+}
+
+.sm {
+    top: 60px;
+    left: 0px;
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    background-color: #78c1cd;
+    
+
+}
+
+.lists {
+  flex-direction: column;
+}
+
+.listwords {
+  text-align: center; 
+  border-top: solid 0.5px #eaf4fc;
+}
+
+
+.list {
+list-style: none;
+margin: 0;
+padding: 0;
+}
+</style>
+
+<body>
+<!-- コンテンツ -->
+<div class="content">
+  <div class="title">
+      <img src="title.png" alt="title">
+  </div>
+  <div class="text">
+    <div class="article-title">
+      <h1>運スタのリアル</h1>
+    </div>
+   
+    <h2>目次</h2>
+    <p class="table">①運スタに入る前と入った後で変わったこと</br>
+        ②運スタの好きなところ、大変なところ</p>
+ 
+    <p class="saisho">
+        1年生のみなさん！ </br>
+        「大事なサークル選びだからよく知った上で選びたい！」
+        そう思っている方はいませんか？</br>
+    この記事では、運営スタッフに実施したアンケート結果をもとに、
+    「運スタに入る前と入った後で変わったこと」
+    「運スタの好きなところ」「運スタのエピソード」
+    の観点から運営スタッフの生の声をお届けします！
+</p>
+
+<h2 class="title1">①運スタに入る前と入った後で変わったこと</h2>
+<p class="mazuha">まずは、運スタ入会前後の印象の変化についてのアンケート結果です。</br>
+
+この円グラフから、運営スタッフの約7割が、運スタ入会前後で印象が変化したことが分かります！
+</p>
+<img class="graph" src="real1.png" alt="graph">
+
+<p class="tasuku">
+では実際にどんな面で変化したのか、項目ごとに見ていきましょう！</br>
+まずは<b>【タスク量】</b>から！
+</p>
+
+<ul>
+<li>入会前想像していなかったタスクとか、既存（先輩スタッフ）のタスクの量におどろき！ だけどみんなで一緒に頑張って成長できるのはすごく楽しい</li>
+<li>タスク多い。でも達成感は想像以上に大きかった！</li>
+<li>思っていたよりも1年生が主体で自由にやれるものだと気づきました。大変だけどその分やりがいがあるのは間違いないと思います。</li>
+</ul>
+
+<p class="ippou">一方で、こんな意見も寄せられました。</p>
+
+<ul>
+    
+<li>オンラインだからか、はたまた自分に割り振られてなかったか、もしくはその両方かわからないが、とりあえずタスクは少なかった</li>
+<li>思っていたよりタスクがないけどちゃんと遊べるから問題ない！</li>
+<li>思っていたよりもタスクが無さすぎた！</li>
+</ul>
+
+<p class="honnninn">
+    本人の要領の良さなのか、比較的タスクが少ない部署に所属しているのかわかりませんが、タスク量が少ないと感じた方もいたようです。
+    </p>
+
+<img class="photo1" src="real2.png" alt="title">
+
+<p class="tugiha">次は<b>【人間関係】</b>について！ </br>
+    人脈を広げたい方にとってはかなり大事なポイントです。</p>
+
+<ul>
+    <li>自分で動けばどんどん友達できる。上下関係はほぼないようなもの。チームは家族同然。</li>
+<li>オンラインでの活動だったにもかかわらず、たくさんの友達に出会えて、本当に良かったって思ってます。</li>
+<li>先輩が優しいし色んな人と初対面の機会が多いからコミュ力鍛えられる！</li>
+</ul>
+
+<p class="unstani">
+    運スタに入って友達が増えたという意見が大多数でした！ 
+    運スタは全体で約600人のマンモスサークルなのでそれもそのはず、
+    友達をつくろうと思えばいくらでも交友関係を広げることができます。 </br>
+    人見知りの方も心配ご無用！
+    配属された部署で活動していくうちに、必ずチーム員と仲を深められるので人間関係が広がること間違いなしです。
+
+</p>
+
+<p class="zentai">次は<b>【全体的な忙しさ】</b>について！ </br>
+    学業やバイトなどなど、やりたいことがたくさんある人にとってはかなり気になるところです！
+    </p>
+
+<ul>
+<li>1日に全ミ（全体ミーティング）、局ミ（局ミーティング）、チーミ（チームミーティング）があるとかなり夜遅くなるし、忙しいと感じた。</li>
+<li>全体的には忙しくないが、早稲田祭の直前期はきつい。</li>
+<li>忙しいけど楽しさが勝つ。</li>
+</ul>
+
+<p class="matsuri">
+    祭の直前期は特に忙しいという意見が多く寄せられました。</br>
+    ですがその忙しさも全ては祭の成功のため。直前期は体力的にも精神的にもきついですが、その分の疾走感や最後までやり切った達成感は計り知れないです。
+</p>
+
+<p class="yakushoku">
+    役職によって忙しさに差はありますが、こんな声もありました。</p>
+
+<ul>
+<li>自分次第で何とでもなる！</li>
+<li>その人のタスク量によるけど、あまり忙しくはない。</li>
+<li>全体的にはぜんぜん変化はないかもしれないです。むしろ暇なのかな？ って時期が多いくらい。</li>
+</ul>
+
+<p class="chokuzen">
+    直前期以外は忙しくないと感じる方もいるようです。
+    </p>
+
+
+    
+<h2 class="title1">②運スタの好きなところ</h2>
+
+<p class="tugi">次に、運スタの好きなところについてアンケートを行いました！</p>
+
+<ul>
+<li>みんなが熱く祭に対して向き合っているところ。</li>
+<li>日本一の祭を作っていると言う誇らしさ。</li>
+<li>チームの居心地が良い。大人数でひとつのものを作り上げようとするところ。</li>
+<li>たった2日間のために1年間捧げられる人たちという集まりがエモい。</li>
+<li>向上心が高くて意識高い人が多いから良い刺激を受けることができること。早稲田祭に対して全力で、みんなお互いに尊重して応援し合っているところ。</li>
+</ul>
+
+<p class="yahari">
+    やはり<b>「やりがいや達成感がある」</b>という意見が多いようです。</br>
+    600人が一丸となって創り上げた早稲田祭当日の緊張感や高揚感、大変だった仕事をやりきった後に味わえる達成感は運営スタッフの醍醐味と言えるでしょう！
+    </p>
+
+<p class="soshite">
+    そしてもう一つ多かった意見が「いろんな人がいる」ということです。600人もいれば、性格も運スタへのコミット度合いも様々で、やる気があって頑張りたい人もいれば緩めでアットホームに活動したい人もいます。それぞれの形で活動できるのが運スタの特徴でもあります。
+</p>
+
+<ul>
+<li>いろんな人に開かれてる。楽しみたい人、タスク頑張りたい人、何となく入ってる人、いろいろいるけど受け入れる。</li>
+<li>いろんな人がいて、他局の人ともタスクで誰かしら必ず関わるので、必然的にいろんな人と繋がりが生まれるところ。</li>
+<li>誰か支えてくれる人が必ずいるところ。</li>
+<li>みんなそれぞれの形で運スタを楽しんでる。</li>
+</ul>
+
+<img class="photo2" src="real3.png" alt="title">
+
+<p class="saigo">
+    最後に、運スタの活動を通してのエピソードをまとめて紹介します！
+</p>
+
+<ul>
+<li>はじめましての時はみんなが怖くて敵に見えたけど、1年2年関わるなかですごく仲良くなるし、まじめで真剣でいい人ばかりだし大学生活の宝です。</li>
+<li>19の当日2日目の夕方、インフォメーションのシフトに入っていた時、来場者の方に「今年もよかったよ。来年も楽しみにしているね」といわれたときは、すごくうれしかった。私自身はステージ演出とか警備をしているわけではなかったけど、総務局員として活動できてよかったと思えた。</li>
+<li>1人（部活とか何かの才能）じゃ日本一にはなれない人達（運営スタッフ）が、力を合わせて日本一になるぞ（早稲田祭！）ってのがロマンがあってかっこいいなって思いました！ やりがい！</li>
+<li>自分が制作に携わったものがSNSを通して世に出たり、写真を撮って貰えたりした時の感動がすごい。</li>
+</ul>
+
+<p class="ikaga">いかがだったでしょうか？ </br>
+この記事を読んで運スタのリアルについてより深く知ってもらえたなら嬉しいです。</br>
+運スタから見た運スタについてもっと知りたい方は運スタに直接話を聞けるチャンス！</br>
+運スタの新歓活動として交流企画があるので要チェック。</br>
+<a href=”https://wasedasai2021shinkan.github.io/event/”>新歓イベント情報はこちら</a></p>
+
+
+</div>
+</body>
+
+
+
+   
+
+
+
+<footer>
+
+<div class="wrapper2">
+    <p class="title">WASEDASAI OPERATION STAFF</br>SHINKAN 2021</p>
+    <div class="innerbox">
+          
+        <a href="https://twitter.com/wasedasai_new?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="_blank" > 
+            <img src="twitter.png" alt="twitter" width="80" height="80"　border="0"> 
+        </a>
+
+        <a href="https://www.instagram.com/wasedasai_new/" target="_blank" > 
+            <img src="instagram.png" alt="instagram" width="80" height="80"　border="0"> 
+        </a>
+
+        <a href="https://lin.ee/RWS70z5" target="_blank" > 
+            <img src="line.png" alt="line" width="80" height="80"　border="0"> 
+        </a>
+
+        <a href="https://www.youtube.com/channel/UCFh9blapIkxPf4Al3L87QHQ" target="_blank" > 
+            <img src="youtube.png" alt="youtube" width="80" height="80"　border="0"> 
+        </a>
+    </div>
+</div>
+    <div class="footerlogo">
+        <a href="https://wasedasai2021shinkan.github.io/toppage/" target="_blank" > 
+            <img src="footerlogo.png" alt="footerlogo" width="40%" height="40%"　border="0"> 
+        </a>
+    </div>
+
+
+    
+    <p><small>Copyright @ WASEDASAI2021 Staff All Rights Reserved. </small></p>
+</div>
+</footer>
+
+</body>
+</html>
+
+<style>
+    footer {
+    background-color: #78c1cd;
+    text-align: center;
+    padding: 26px 0;
+    text-decoration: none;
+}
+
+footer p {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: serif;
+}
+.wrapper2 {
+    background-color: #78c1cd;
+}
+
+
+.innerbox {
+    margin-top: 5px;
+    background-color: #78c1cd;
+    text-align: center;
+    width: 450px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;/*水平方向に均等に分布(端は詰める)*/
+}
+
+.footerlogo{
+    margin-top: 5px;
+}
+</style>
